@@ -1,9 +1,8 @@
-package src.main.java;
-
 import java.util.Comparator;
 
 public class Main {
     public static void main(String[] args) {
+
         // Create a SingleLinkedListQueue
         SingleLinkedList<Integer> queue = new SingleLinkedList<>();
         

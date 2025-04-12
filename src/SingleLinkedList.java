@@ -1,8 +1,7 @@
-package src.main.java;
-
 import java.util.NoSuchElementException;
 
 public class SingleLinkedList<T extends Comparable<T>> implements MyQueue<T> {
+
     public Node head;
     public Node tail;
     private int size;
@@ -36,7 +35,7 @@ public class SingleLinkedList<T extends Comparable<T>> implements MyQueue<T> {
         size++;
     }
 
-    // Remove from the front (dequeue)
+    // Remove from the front (dequeue) -> one at a time
     public T dequeue() {
         if (isEmpty()) {
             throw new NoSuchElementException("Queue is empty!");
