@@ -66,7 +66,7 @@ public class SingleLinkedList<T extends Comparable<T>> implements MyQueue<T> {
         return size;
     }
 
-    // Bonus: Optional toString() for debugging
+    // toString() for debugging
     @Override
     public String toString() {
         StringBuilder sb = new StringBuilder("[");
