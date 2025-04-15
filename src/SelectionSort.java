@@ -6,7 +6,7 @@ public class SelectionSort<T extends Comparable<T>> {
 
         // check if input is from a compatible type (of SingleLinkedList)
         if (!(queue instanceof SingleLinkedList)) {
-            throw new IllegalArgumentException("This sorter only works with SingleLinkedListQueue!");
+            throw new IllegalArgumentException("This sorter only works with SingleLinkedList!");
         }
 
         // Cast SingleLinkedList for direct access
