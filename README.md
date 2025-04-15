@@ -23,7 +23,7 @@ This repository contains an implementation of the Selection Sort algorithm in Ja
 
 - SingleLinkedListTest.java
   
-  Provides unit tests to ensure correctness on SingleLinkedList implementation
+  Provides unit tests to ensure correctness on SingleLinkedList implementation.
   
 ### How It Works
 
